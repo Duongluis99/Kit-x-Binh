@@ -12,6 +12,7 @@ body {
 
 
 form {
+    margin-top: 100px;
     background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
     justify-content: center; /* Canh lề ngang giữa màn hình */
     align-items: center; /* Canh lề dọc giữa màn hình */
