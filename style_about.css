@@ -16,12 +16,12 @@ form {
     background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
     justify-content: center; /* Canh lề ngang giữa màn hình */
     align-items: center; /* Canh lề dọc giữa màn hình */
-    height: 100vh; /* Chiều cao 100% của viewport */
+    height: 70vh; /* Chiều cao 100% của viewport */
     text-align: center; /* Canh giữa nội dung của form */
     padding: 20px; /* Khoảng cách bên trong form */
     border-radius: 8px; /* Đường viền cong của form */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng đổ */
-    width: 300px; /* Độ rộng của form */
+    width: 500px; /* Độ rộng của form */
   }
 
   h1 {
