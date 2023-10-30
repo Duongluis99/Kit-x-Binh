@@ -10,6 +10,7 @@ body {
   }
 
   form {
+    background-color: transparent;
     align-items: center; /* Canh lề dọc giữa màn hình */
     height: 100vh; /* Chiều cao 100% của viewport */
     text-align: center; /* Canh giữa nội dung của form */
