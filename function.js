@@ -18,6 +18,12 @@ document.addEventListener('DOMContentLoaded', function () {
     contactSection.scrollIntoView({ behavior: 'smooth' }); // Cuộn mượt xuống phần contact
   });
 });
+document.addEventListener('DOMContentLoaded', function() {
+    const myButton = document.getElementById('myButton');
+    myButton.addEventListener('click', function() {
+      window.location.href = 'About me.html';
+    });
+});
 
 
 
