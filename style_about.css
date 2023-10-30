@@ -11,6 +11,7 @@ body {
 
   form {
     background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    justify-content: center; /* Canh lề ngang giữa màn hình */
     align-items: center; /* Canh lề dọc giữa màn hình */
     height: 100vh; /* Chiều cao 100% của viewport */
     text-align: center; /* Canh giữa nội dung của form */
