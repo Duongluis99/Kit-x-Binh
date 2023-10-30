@@ -21,7 +21,7 @@ form {
     padding: 20px; /* Khoảng cách bên trong form */
     border-radius: 8px; /* Đường viền cong của form */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng đổ */
-    width: 500px; /* Độ rộng của form */
+    width: 300px; /* Độ rộng của form */
     
     .input{
       background-color:#f9004d;
