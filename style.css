@@ -7,7 +7,7 @@
 .hero{
 	height: 100vh;
 	width: 100%;
-	background-image:url(Photos/cloud.jpg);
+	background-image:url(photos/cloud.jpg);
 	background-size:cover;
 	background-position:center;
 }
@@ -22,7 +22,7 @@
 nav{
 	display: flex;
 	align-items:center;
-	background-image:url(Photos/black.png);
+	background-image:url(photos/black.png);
 	background-position:center;
         justify-content: space-between;
 	padding-top: 20px;
@@ -222,6 +222,17 @@ button:hover{
 	width: 80px;
         text-color:balck;
 }
+#mo{
+        height: auto;
+	width: 250px; 
+}
+
+.h51{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 30px;
+}
+
 h5{
 	color: white;
 	font-size: 23px;
@@ -232,6 +243,12 @@ h5{
 	font-size: 16px;
 	line-height: 27px;
 	margin-bottom: 25px;
+}
+.pra1 p{
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 15px;
 }
 .card .button{
 	background-color:#f9004d;
