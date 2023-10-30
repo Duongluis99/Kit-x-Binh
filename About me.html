@@ -1,15 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> Talk to me </title>
-	<link rel="stylesheet" type="text/css" href="style_about.css">
+    <title>Talk to me</title>
+    <link rel="stylesheet" type="text/css" href="style_about.css">
+    <style>
+        /* Thêm CSS để căn chỉnh form vào giữa màn hình */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            margin-top: 10px; /* Dịch chữ lên trên cùng */
+        }
+
+        form {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px; /* Độ rộng của form */
+        }
+    </style>
 </head>
 <body>
-    <h1>Gửi tới các anh yêu cũ </h1>
+    <h1>Gửi tới các anh yêu cũ</h1>
     <br>
-    <!-- <form action="mailto:your@email.com" method="post" enctype="text/plain"> -->
     <form method="post" enctype="text/plain">
-        <label for="email">Email của anh iu </label>
+        <label for="email">Email của anh iu</label>
         <br>
         <input type="text" id="email" name="email" required style="width: 100%;">
         <br>
@@ -20,13 +43,13 @@
         <br>
         <input type="button" value="Send" onclick="showSuccessMessage()">
     </form>
-    <p id="successMessage" style="display: none;">Email gửi thành công . Mãi iu anh Bình <3 !!! </p>
+    <p id="successMessage" style="display: none;">Email gửi thành công. Mãi iu anh Bình &lt;3 !!!</p>
 
     <script>
         function showSuccessMessage() {
-          // Hiển thị thông báo thành công
-          var successMessage = document.getElementById("successMessage");
-          successMessage.style.display = "block";
+            // Hiển thị thông báo thành công
+            var successMessage = document.getElementById("successMessage");
+            successMessage.style.display = "block";
         }
     </script>
 </body>
