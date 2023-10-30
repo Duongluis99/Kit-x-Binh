@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif; /* Phông chữ của toàn bộ trang */
+    display: flex;
+    justify-content: center; /* Canh lề ngang giữa màn hình */
+    align-items: center; /* Canh lề dọc giữa màn hình */
+    height: 100vh; /* Chiều cao 100% của viewport */
+    margin: 0; /* Loại bỏ lề của trình duyệt */
+    /* background-color: #f0f0f0; Màu nền trang */
+    background-image:url(Photos/cloud.jpg);
+	background-size:cover;
+	background-position:center;
+  }
+
+  form {
+    text-align: center; /* Canh giữa nội dung của form */
+    background-color: #ffffff; /* Màu nền của form */
+    padding: 20px; /* Khoảng cách bên trong form */
+    border-radius: 8px; /* Đường viền cong của form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng đổ */
+  }
