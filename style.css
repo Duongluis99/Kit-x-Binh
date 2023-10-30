@@ -346,7 +346,6 @@ footer p:nth-child(2){
 }
 
 form {
-    margin-top: 100px;
     background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
     justify-content: center; /* Canh lề ngang giữa màn hình */
     align-items: center; /* Canh lề dọc giữa màn hình */
@@ -355,7 +354,6 @@ form {
     padding: 20px; /* Khoảng cách bên trong form */
     border-radius: 8px; /* Đường viền cong của form */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng đổ */
-    width: 300px; /* Độ rộng của form */
 
 	#talk{
 		background-color:#f9004d;
