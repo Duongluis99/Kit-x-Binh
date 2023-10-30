@@ -9,13 +9,13 @@ document.addEventListener('DOMContentLoaded', function () {
   cataLink.addEventListener('click', function (event) {
     event.preventDefault(); // Ngăn trình duyệt chuyển hướng
     const cataSection = document.querySelector('#cata');
-    cataSection.scrollIntoView({ behavior: 'smooth' }); // Cuộn mượt xuống phần About Me
+    cataSection.scrollIntoView({ behavior: 'smooth' }); // Cuộn mượt xuống phần catagories
   });
   const contactLink = document.querySelector('a[href="#contact"]');
   contactLink.addEventListener('click', function (event) {
     event.preventDefault(); // Ngăn trình duyệt chuyển hướng
     const contactSection = document.querySelector('#contact');
-    contactSection.scrollIntoView({ behavior: 'smooth' }); // Cuộn mượt xuống phần About Me
+    contactSection.scrollIntoView({ behavior: 'smooth' }); // Cuộn mượt xuống phần contact
   });
 });
 
